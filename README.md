@@ -116,13 +116,11 @@
 
 ###### Project Structure
 
-###### telco-churn-prediction/
+###### customer-churn-prediction/
 
 ###### │
 
-###### ├── data/
-
-###### │   └── Telco-Customer-Churn.csv
+###### ├── Telco-Customer-Churn.csv
 
 ###### ├── churn\_prediction.py
 
@@ -136,17 +134,25 @@
 
 ###### 
 
-###### Installation
+## Installation
 
-###### git clone https://github.com/YOUR\_USERNAME/telco-churn-prediction.git
+```bash
+git clone https://github.com/AmruthaRaju24/telco-churn-prediction.git
+cd telco-churn-prediction
+pip install -r requirements.txt
+```
 
-###### cd telco-churn-prediction
+## Running the Project
 
-###### pip install -r requirements.txt
+```bash
+python churn_prediction.py
+```
 
-###### 
+## Model Comparison
 
-###### Running the Project
+![Model Comparison](model_comparison.png)
 
-###### python churn\_prediction.py
+## Feature Importance
+
+![Feature Importance](feature_importance.png)
 
